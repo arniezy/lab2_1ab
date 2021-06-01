@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(0, 60, 90);
+    color: rgb(0, 60, 90);
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+    min-width: 500px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    padding: 16px 8px;
+	color: rgb(0, 60, 90);
+    background-color: rgb(250, 220, 100);
+}
+
+span {
+    background-color: rgb(250, 220, 100);
+}
+
+span:hover {
+	text-decoration: underline;
+    cursor: pointer;
+}
+
+.serial_number {
+    width: 15%;
+}
+
+.name {
+    width: 30%;
+}
+
+.characters {
+    width: 40%;
+}
+
+.year {
+    width: 15%;
+}
+
+td {
+    padding: 12px 8px;
+    border-bottom: 1px solid rgb(0, 60, 90);
+    background-color: rgb(255, 255, 255);
+}
+
+nobr {
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+	margin: auto;
+    width: 90%;
+    min-width: 500px;
+    text-align: left;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.data_item {
+	margin: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.info_label {
+	background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: rgb(0, 60, 90);
+    margin: 16px 0 0;
+}
+
+input {
+	width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(195, 170, 60);
+    margin: 8px 0 16px;
+}
+
+input:focus {
+	background: rgba(60, 200, 245, 0.1);
+}
+
+.button_border {
+	width: 197px;
+	height: 60px;
+	background: linear-gradient(30deg, rgb(250, 220, 100), rgb(55, 200, 245));
+	margin: 16px 0px;
+}
+
+button {
+	width: 191px;
+	height: 54px;
+	background: rgb(255, 255, 255);
+	font-weight: bold;
+	color: rgb(0, 60, 90);
+    margin: 3px;
+}
+
+button:hover {
+	text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1260px) {
+	* {
+        font-size: 14px;
+    }
+	
+	input {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	* {
+        font-size: 12px;
+    }
+	
+	input {
+		width: 170px;
+	}
+}

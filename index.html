@@ -1,0 +1,108 @@
+<!-- Зязина Арина, 2 курс 91 группа -->
+<!-- Задание 1AB -->
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Серии смешариков</title>
+    <link rel="stylesheet" href="lab2_style.css">
+</head>
+<body>
+    <table id="table_info">
+        <thead>
+            <tr>
+                <th data-type="number" class="serial_number"><span>Номер серии</span></th>
+                <th data-type="string" class="name"><span>Название</span></th>
+                <th data-type="string" class="characters"><span>Основные персонажи</span></th>
+                <th data-type="number" class="year"><span>Год премьеры</span></th>
+            </tr>
+        </thead>
+        <tbody id="info">
+            <tr>
+                <td>1</td>
+                <td>Скамейка</td>
+                <td>Крош, Ежик, Бараш</td>
+                <td>2004</td>
+            </tr>
+			
+			<tr>
+                <td>4</td>
+                <td>Фанерное солнце</td>
+                <td>Крош, Ежик, Бараш, Совунья</td>
+                <td>2004</td>
+            </tr>
+			
+			<tr>
+                <td>6</td>
+                <td>Железная няня</td>
+                <td>Крош, Ежик, Пин</td>
+                <td>2004</td>
+            </tr>
+			
+			<tr>
+                <td>12</td>
+                <td>Как собрать друзей <nobr>по-быстрому</nobr></td>
+                <td>Нюша, Крош, Ежик, Копатыч, Бараш, Совунья</td>
+                <td>2004</td>
+            </tr>
+			
+			<tr>
+                <td>21</td>
+                <td>Полеты во&nbsp;сне и&nbsp;наяву</td>
+                <td>Пин, Копатыч, Крош, Ежик, Лосяш, <nobr>Кар-Карыч</nobr></td>
+                <td>2005</td>
+            </tr>
+			
+			<tr>
+                <td>40</td>
+                <td>Страшилка для Нюши</td>
+                <td>Нюша, Крош, Ежик, Совунья</td>
+                <td>2005</td>
+            </tr>
+			
+			<tr>
+                <td>100</td>
+                <td>Смысл жизни</td>
+                <td>Бараш, <nobr>Кар-Карыч</nobr></td>
+                <td>2007</td>
+            </tr>
+			
+			<tr>
+                <td>110</td>
+                <td>Право на одиночество</td>
+                <td>Бараш, Крош, Ежик, Копатыч, Нюша</td>
+                <td>2008</td>
+            </tr>
+        </tbody>
+    </table>
+	
+	<div class="box">
+		<div class="data_item">
+			<div class = "info_label">Введите номер серии:</div>
+			<input type="text" id="new_serial_number">
+		</div>
+		
+		<div class="data_item">
+			<div class = "info_label">Введите название:</div>
+			<input type="text" id="new_name">
+		</div>
+		
+		<div class="data_item">
+			<div class = "info_label">Введите персонажей:</div>
+			<input type="text" id="new_characters">
+		</div>
+		
+		<div class="data_item">
+			<div class = "info_label">Введите год премьеры:</div>
+			<input type="text" id="new_year">
+		</div>
+	</div>
+	
+	<div class="box">
+		<div class="button_border">
+			<button id="add_button">Добавить в&nbsp;таблицу</button>
+		</div>
+	</div>
+    <script src="lab2_1ab.js"></script>
+</body>
+</html>
